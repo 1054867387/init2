@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Codex：为每一行代码而生的智能工程伙伴。" />
+  <title>Codex — 为每一行代码而生</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#top"><span class="brand-mark">✳</span> codex</a>
+      <div class="nav-links"><a href="#features">能力</a><a href="#workflow">工作方式</a><a href="#docs">文档</a></div>
+      <a class="nav-cta" href="#start">开始使用 <span>↗</span></a>
+      <button class="menu" aria-label="打开菜单">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> 新一代 AI 工程伙伴</p>
+        <h1>把想法<br /><em>变成现实。</em></h1>
+        <p class="lede">Codex 读懂你的代码、理解你的意图，和你一起构建更好的软件。从第一行代码到最终部署，始终保持专注。</p>
+        <div class="hero-actions"><a class="button primary" href="#start">立即体验 <span>→</span></a><a class="text-link" href="#features">探索能力 <span>↓</span></a></div>
+      </div>
+      <div class="terminal-card" aria-label="Codex 工作示例">
+        <div class="terminal-top"><div class="dots"><i></i><i></i><i></i></div><span>codex / workspace</span><span class="live">● LIVE</span></div>
+        <div class="terminal-body"><div class="line muted">01&nbsp;&nbsp; // 你的下一个想法</div><div class="line">02&nbsp;&nbsp; <b>const</b> product = <span class="green">await</span> codex.build({</div><div class="line indent">03&nbsp;&nbsp;&nbsp;&nbsp;prompt: <span class="orange">"一个更快的工作流"</span>,</div><div class="line indent">04&nbsp;&nbsp;&nbsp;&nbsp;quality: <span class="purple">"production"</span></div><div class="line">05&nbsp;&nbsp; });</div><div class="result"><span class="check">✓</span><span>已完成 &nbsp; 42 个文件 · 0 个错误</span><small>2.4s</small></div></div>
+      </div>
+    </section>
+
+    <section class="signal container"><span>从想法到上线</span><div class="signal-line"></div><span>只差一个对话</span></section>
+
+    <section id="features" class="features container"><div class="section-intro"><p class="eyebrow">/ 能力</p><h2>你的专注，<br /><span>应该留给重要的事。</span></h2></div><div class="feature-grid"><article><div class="icon">⌘</div><h3>理解复杂代码</h3><p>跨文件、跨仓库理解上下文，在你开始之前就找到正确的方向。</p><a href="#start">了解更多 →</a></article><article><div class="icon">✦</div><h3>从想法到实现</h3><p>用自然语言描述目标，Codex 把它拆解成清晰、可靠的工程方案。</p><a href="#start">了解更多 →</a></article><article><div class="icon">↗</div><h3>安心交付</h3><p>自动编写测试、审查变更，让每一次提交都更接近生产环境。</p><a href="#start">了解更多 →</a></article></div></section>
+
+    <section id="workflow" class="workflow"><div class="container workflow-inner"><div><p class="eyebrow">/ 工作方式</p><h2>像同事一样<br /><em>一起工作。</em></h2></div><div class="steps"><div class="step"><span>01</span><div><h3>描述目标</h3><p>告诉 Codex 你想解决什么问题，或把一个模糊的想法交给它。</p></div></div><div class="step"><span>02</span><div><h3>共同探索</h3><p>查看计划、追问细节，在每一步都保持对代码的掌控。</p></div></div><div class="step"><span>03</span><div><h3>放心合并</h3><p>得到可读、可测、可维护的结果，直接进入你的工作流。</p></div></div></div></div></section>
+
+    <section id="docs" class="quote container"><p>“真正好的工具，<br />会让你忘记工具的存在。”</p><span>— Codex 设计理念</span></section>
+    <section id="start" class="cta container"><div><p class="eyebrow">/ 现在开始</p><h2>下一次突破，<br /><em>从一句话开始。</em></h2></div><a class="button dark" href="mailto:hello@codex.example">联系 Codex <span>↗</span></a></section>
+  </main>
+  <footer class="footer container"><a class="brand" href="#top"><span class="brand-mark">✳</span> codex</a><span>为建造者而生 · 2026</span><div><a href="#docs">文档</a><a href="#start">联系我们</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
